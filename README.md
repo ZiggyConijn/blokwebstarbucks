@@ -64,9 +64,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
   
   -Starbucks site is goed inclusive met weinig verbeterpunten
+  
   -33 foutmedlingen
+  
   -geen hidden headers
+  
   -heeft een to main content pop up
+  
   - overal is de site goed en gaat het moeilijk zijn om verbeter punten te vinden
 
 </details>
@@ -99,7 +103,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vond het lastig om te begginen want ik heb zoveel nieuwe dingen geleerd maar wist niet waar ik moest begginen bijvoorbeeld met verschillende elementen aanspreken en hoe ik de nav moest maken ook wist ik niet hoe ik fotos van de sit kon krijgen
 
 
   ### Agenda voor meeting
@@ -108,17 +112,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | en dat oo      | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
-
+wat ik wilde bespreken was vooral of ik alles tot nu toe goed deed
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - geleerd hoe ik de kaarten in me sites moest maken
+  - geleerd hoe ik images uit de website kan halen
 
 </details>
 
@@ -132,7 +134,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  waar ik problemen mee had was de button op me kaarten wilde niet centreren ook wist ik niet hoe ik een accordion moest maken wat wel goed ging was de images en de vormgeving
 
 
   ### Agenda voor meeting
@@ -148,9 +150,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - accordion videos opzoeken op youtube
+  - align-text bij elk individueele element in artcile gebruiken om button te centreren
+  - begginen aan 2de pagina
 - ...
 
 </details>
@@ -166,6 +168,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  bevindingen
+  -screenreader werkt nog niet goed
+  
+  -je kan nog horizontaal scrollen
+
+  -alt text voor images aanpassen
+
+  verbeteringen
+
+  -geen foutmeldingen
+
+  - ik gebruik a en button elementen waar het hoort
+  
 
 </details>
 
@@ -180,7 +195,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+de meeste dingen gingen nu goed alleen had ik nog moeite met me hamburger menu en accordion
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -195,9 +210,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - tips gekregen responsive maken
+  - tips gekregen accordion
+  - begin gemaakt aan hamburger
   - ...
 
 </details>
@@ -212,19 +227,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img width="960" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/18c0ef9c-e1f2-49af-8dc6-9a15f66e63b2">
+
+  <img width="960" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/2c647789-baec-4427-b873-4c1ceec24c83">
+
+  <img width="176" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/906755f7-f848-49ae-988b-8f50db05d910">
+
+<img width="174" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/b880fa5c-572a-4de1-945f-df28401b982e">
+
+
+  <img width="960" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/78168a58-fef0-4085-a44f-43fed05eb906">
+
+
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ wat goed ging was de vormgeving en het responsive maken ik heb ook veel geleerd over navs maken 
+
+<img width="891" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/52376b84-546e-435a-9298-42633cb50a7d">
+
+<img width="960" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/c16cadf3-1837-4bbd-a157-7d2a879c4a18">
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+ wat niet was gelukt is de vormgeving voor de accordion en de hamburger menu daar had ik moeite mee
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+ <img width="174" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/84ef7957-a3b4-4ad5-ad81-0d110bba5310">
+
+ <img width="178" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/ed62bb86-79bd-4fd6-ba21-c4f8e2122438">
+
+
 </details>
 
 
@@ -240,8 +276,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. https://css-tricks.com/inclusively-hidden/  
+  2. https://www.mozilla.org/nl/?v=1
   3. ...
+
+ik heb niks direct overgenomen behalve de inclusivly hidden maar veel inspiratie genomen en aanpassingen gemaakt op info van mozilla
 
 </details>
