@@ -1,0 +1,836 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: #eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+:root {
+	--colorGreenAccent: #006241;
+	--colorHouseGreen: #1e3932;
+	--textcolorone: white;
+	--colorYellow: #d5942b;
+	--colorWine: #76232f;
+	--colorPink: #b04a5a;
+
+
+
+}
+
+* {
+	margin: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+
+/* start algemene css */
+main li {
+	list-style: none;
+	margin-bottom: 1.9em;
+
+}
+
+@media (min-width: 1025px) {
+
+
+	main li {
+		display: flex;
+
+	}
+
+}
+
+main ul {
+	padding: 0;
+	left: 0;
+	right: 0;
+}
+
+main article {
+	padding: 2em 0.9em;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+
+}
+
+.screenreader:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* eind algemene css */
+
+
+
+/* start vormgeving kaarten */
+
+main li:nth-of-type(1) article {
+	background-color: var(--colorGreenAccent);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main li:nth-of-type(2) article {
+	background-color: var(--colorHouseGreen);
+}
+
+main li:nth-of-type(3) article {
+	background-color: var(--colorYellow);
+}
+
+main li:nth-of-type(4) article {
+	background-color: var(--colorWine);
+}
+
+main li:nth-of-type(5) article {
+	background-color: var(--colorPink);
+}
+
+main li:nth-of-type(6) article {
+	background-color: var(--colorWine);
+}
+
+@media (min-width: 1025px) {
+
+
+	main li article {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 2em;
+	}
+
+	main li:nth-of-type(2) article {
+		order: -1;
+	}
+
+	main li:nth-of-type(4) article {
+		order: -1;
+	}
+
+	main li:nth-of-type(6) article {
+		order: -1;
+	}
+
+}
+
+
+
+main li h2 {
+	color: var(--textcolorone);
+	font-weight: 700;
+	margin-bottom: 0.8em;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+main li p {
+	color: var(--textcolorone);
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+main li img {
+	max-width: 100%;
+	margin-bottom: 0;
+	display: block;
+}
+
+@media (min-width: 1025px) {
+
+	main li img {
+		max-width: 50%;
+		margin-bottom: 0;
+		display: block;
+	}
+
+	main li h2 {
+		font-size: 3em;
+	}
+
+	main li p {
+		font-size: 1.5em;
+	}
+
+	main li a {
+		font-size: 1em;
+	}
+
+}
+
+
+
+main li a {
+	color: var(--textcolorone);
+	text-decoration: none;
+	border-radius: 8em;
+	border: .03em solid var(--textcolorone);
+	padding: .1em 1em;
+	font-weight: 600;
+	text-align: center;
+
+
+}
+
+main li:nth-of-type(1) a {
+	background-color: var(--colorGreenAccent);
+
+}
+
+:hover main li:nth-of-type(1) a {
+	background-color: #005a3c;
+
+}
+
+main li:nth-of-type(2) a {
+	background-color: var(--colorHouseGreen);
+}
+
+:hover main li:nth-of-type(2) a {
+	background-color: #1d352e;
+
+}
+
+main li:nth-of-type(3) a {
+	background-color: var(--colorYellow);
+}
+
+:hover main li:nth-of-type(3) a {
+	background-color: #c98b28;
+
+}
+
+main li:nth-of-type(4) a {
+	background-color: var(--colorWine);
+}
+
+:hover main li:nth-of-type(4) a {
+	background-color: #691e2a;
+
+}
+
+main li:nth-of-type(5) a {
+	background-color: var(--colorPink);
+}
+
+:hover main li:nth-of-type(5) a {
+	background-color: #a24251;
+
+}
+
+main li:nth-of-type(6) a {
+	background-color: var(--colorWine);
+}
+
+:hover main li:nth-of-type(6) a {
+	background-color: #691e2a;
+
+}
+
+/* start vormgeving kaarten */
+
+
+/* start navigatie balk */
+nav {
+	margin-bottom: 1.5em;
+	border-bottom: solid rgb(218, 218, 218);
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+	list-style: none;
+	padding: 1em 0;
+}
+
+
+header nav ul li:nth-of-type(1) img {
+	width: 4.5em;
+	height: 2.5em;
+	display: block;
+}
+
+header nav ul li:nth-of-type(2) img {
+	width: 3.5em;
+	display: block;
+	margin-right: 1em;
+
+}
+
+
+
+header nav button {
+	border: none;
+	background-color: white;
+}
+
+@media (min-width: 1025px) {
+
+
+	nav:first-of-type {
+		display: none;
+	}
+
+
+
+}
+
+@media (max-width: 1025px) {
+
+
+	.navTwee {
+		display: none !important;
+
+	}
+
+}
+
+/* 2de navigatie balk */
+
+nav:nth-of-type(2) {
+	display: flex;
+	justify-content: space-between;
+	height: 6.5em;
+}
+
+nav:nth-of-type(2) ul {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	max-width: 40%;
+	list-style: none;
+	padding: 1em 0;
+
+}
+
+nav:nth-of-type(2) ul li {
+	color: black;
+	font-weight: 900;
+
+}
+
+:hover nav:nth-of-type(2) ul li a {
+	color: var(--colorGreenAccent);
+
+
+}
+
+nav:nth-of-type(2) ul li a {
+	color: black;
+	font-weight: 1000;
+	text-decoration: none;
+	margin: 1em;
+	font-size: 0.9em;
+
+}
+
+nav:nth-of-type(2) ul li a img {
+	width: 6em;
+	height: 3.5em;
+}
+
+
+
+.navTwee ul:nth-child(2) a {
+	text-decoration: none;
+	border-radius: 8em;
+	border: .03em solid var(--color-text);
+	padding: .3em 1.3em;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: 550;
+	margin: 3em 1em;
+	margin-right: 2em;
+
+}
+
+
+
+
+.navTwee ul:nth-child(2) a:nth-child(1) {
+	color: var(--color-text);
+
+	background-color: white;
+}
+
+.navTwee ul:nth-child(2) a:nth-child(2) {
+	color: var(--textcolorone);
+	width: 7em;
+
+
+
+}
+
+
+
+/* eind navigatie balk */
+
+/* start hamburger menu */
+header section {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 5.5em;
+	transform: translate(100% 0%);
+	transition: translate .3s;
+	width: 85%;
+	height: 92vh;
+	flex-direction: column;
+	background-color: var(--textcolorone);
+
+}
+
+.toggleMenu {
+	transform: translate(0% 0%);
+	display: block;
+
+
+}
+
+header section ul {
+	list-style: none;
+	border-bottom: solid rgb(218, 218, 218);
+	;
+
+
+}
+
+header section ul li a {
+	margin: 2em 0;
+	font-size: 1.2em;
+	border: none;
+
+}
+
+header section a {
+	text-decoration: none;
+	border-radius: 8em;
+	border: .03em solid var(--color-text);
+	padding: .3em .4em;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: 550;
+	margin: 3em 1em;
+
+}
+
+header section a:nth-of-type(1) {
+	color: var(--color-text);
+	width: 6em;
+
+
+}
+
+header section a:nth-of-type(2) {
+	color: var(--textcolorone);
+	width: 7em;
+	background-color: black;
+
+
+}
+
+/* locatie button alleen doen als ik nog tijd heb
+<a href="#"><img src="img/locatie.png" alt="location icon">Find a store</a>
+
+header section a:nth-of-type(3) {
+	border: none;
+
+
+}
+
+header section a:nth-of-type(3) img {
+	width: 2em;
+
+
+}
+/*
+
+/* eind hamburger menu */
+
+/* start tussenstuk main en footer */
+
+.infotext p {
+	text-align: center;
+	padding: 3em 0.5em;
+	font-size: 0.8em;
+	line-height: 1.8;
+}
+
+@media (min-width: 1025px) {
+
+	.infotext p {
+		padding: 3em 22em;
+	}
+
+
+}
+
+.microAnimatie {
+	background-color: #005bbb;
+	width: 100%;
+	height: 25em;
+	text-align: center;
+	padding: 3em;
+}
+
+.microAnimatie h2 {
+	color: #ffd500;
+	font-weight: 700;
+	margin-bottom: 0.8em;
+	font-size: 2em;
+	text-align: center;
+}
+
+.microAnimatie p {
+	color: var(--textcolorone);
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+.microAnimatie button {
+	color: var(--textcolorone);
+	text-decoration: none;
+	border-radius: 8em;
+	border: .03em solid var(--textcolorone);
+	padding: .1em 1em;
+	font-weight: 600;
+	background-color: #005bbb;
+	width: 10em;
+}
+
+.hollowHeart {
+	width: 3em;
+	display: block;
+	align-items: center;
+	margin: 0.7em auto;
+}
+
+.redHeart {
+	width: 3em;
+	display: none;
+	align-items: center;
+	margin: 0.7em auto;
+}
+
+.remove {
+	display: none;
+}
+
+.add {
+	display: block;
+
+}
+
+
+
+
+@media (min-width: 1025px) {
+
+
+
+	.microAnimatie h2 {
+		font-size: 3em;
+	}
+
+	.microAnimatie p {
+		font-size: 1.5em;
+	}
+
+	.microAnimatie a {
+		font-size: 1em;
+	}
+
+	.microAnimatie img {
+		width: 5em;
+
+	}
+
+}
+
+
+/* eind tussenstuk main en footer */
+
+
+
+/* start accordion */
+
+footer section:nth-of-type(1) {
+	border-bottom: solid rgb(218, 218, 218);
+	border-top: solid rgb(218, 218, 218);
+}
+
+footer section:nth-of-type(1) h2 {
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0.3em 0;
+}
+
+footer:nth-of-type(1) section ul ul {
+	padding: 0 0.2em;
+	position: relative;
+}
+
+footer:nth-of-type(1) section ul ul>li a {
+	color: rgb(140, 140, 140);
+	font-size: 0.9em;
+
+}
+
+
+footer ul button {
+	border: none;
+	background-color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding: 0 13em;
+	padding-left: 0;
+	display: flex;
+
+
+}
+
+
+footer ul button img {
+	width: 1.5em;
+	display: block;
+
+}
+
+@media (min-width: 1025px) {
+
+	footer ul button img {
+		width: 1.5em;
+		display: none;
+
+	}
+
+	footer:nth-of-type(1) section ul {
+		display: flex;
+
+	}
+
+	footer:nth-of-type(1) section ul ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+
+	footer ul button {
+		font-size: 1.1em;
+		padding: 0;
+		font-weight: 400;
+	}
+}
+
+/* accordion classes js */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.dropdowntwo-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.dropdownthree-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.dropdownfour-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.dropdownfive-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.show {
+	display: block;
+}
+
+@media (min-width: 1025px) {
+
+	.dropdown-content {
+		display: block;
+
+	}
+
+	.dropdowntwo-content {
+		display: block;
+
+	}
+
+	.dropdownthree-content {
+		display: block;
+
+	}
+
+	.dropdownfour-content {
+		display: block;
+
+	}
+
+	.dropdownfive-content {
+		display: block;
+
+	}
+
+}
+
+/* accordion classes js */
+
+
+
+/*  eind accordion */
+
+/* start footer */
+
+footer ul {
+	list-style: none;
+	padding: 1.8em 1em;
+
+}
+
+footer ul:nth-of-type(1) li {
+	font-size: 1em;
+	font-weight: 300;
+	margin: 1.5em 0;
+}
+
+footer ul li:nth-of-type(1) {
+	margin-bottom: 0;
+}
+
+footer ul:nth-of-type(2) li {
+	font-size: 0.9em;
+	font-weight: 250;
+	margin: 1.3em 0;
+}
+
+:hover footer ul:nth-of-type(2) li a {
+	text-decoration: underline;
+}
+
+footer p {
+	font-size: 0.8em;
+	font-weight: 200;
+	margin: 3em 1.5em;
+	color: gray;
+}
+
+
+
+.eindefooter ul:nth-of-type(2) {
+	padding: 0 1.4em;
+
+}
+
+@media (min-width: 1025px) {
+
+	.eindefooter ul:nth-of-type(2) {
+		padding: 0 1.4em;
+		display: flex;
+		justify-content: flex-start;
+
+
+	}
+
+	.eindefooter ul:nth-of-type(2) li {
+		margin-right: 2em;
+		margin-bottom: 0;
+		font-size: 1em;
+	}
+
+	footer p {
+		margin-top: 1em;
+		font-size: 0.9em;
+	}
+
+	.eindefooter {
+		margin-left: 1em;
+	}
+
+}
+
+/* eind footer */
+
+/* start media icons */
+
+footer section:nth-of-type(2) ul img {
+	width: 2.2em;
+
+}
+
+.eindefooter ul:nth-of-type(1) {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 0;
+
+}
+
+.eindefooter ul:nth-of-type(1) li {
+	margin: 0 0.5em;
+
+}
+
+/* eind media icons */
+
+
+
+/* jouw code */
