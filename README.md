@@ -41,13 +41,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   front page
   <img width="176" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/9c0fa6f9-7c0b-4329-8fff-93e8c1aa56d3">
+<img width="172" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/76dac399-e67c-48b1-a137-36945f07ccba">
 
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ menu pagina 
  
+ <img width="173" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/4c2ccaf8-c55d-4f78-80a7-c6f083c1c191">
+<img width="173" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/cbdf11ab-e1b0-4505-bf7c-d026b7f79724">
+
 </details>
 
 
@@ -59,6 +62,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  -Starbucks site is goed inclusive met weinig verbeterpunten
+  -33 foutmedlingen
+  -geen hidden headers
+  -heeft een to main content pop up
+  - overal is de site goed en gaat het moeilijk zijn om verbeter punten te vinden
 
 </details>
 
