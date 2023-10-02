@@ -36,11 +36,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+ https://www.starbucks.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  front page
+  <img width="176" alt="image" src="https://github.com/ZiggyConijn/blokwebstarbucks/assets/144120627/9c0fa6f9-7c0b-4329-8fff-93e8c1aa56d3">
+
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
